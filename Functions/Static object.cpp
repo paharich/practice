@@ -15,7 +15,7 @@ int main(){
 }
 
 void display(){
-    int i = 0;
+    static int i = 0;
     i++;
     std::cout << "i = " << i << std::endl;
 }
